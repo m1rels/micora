@@ -76,3 +76,9 @@ h5 {
 .icon--accent {
   color: var(--color-accent);
 }
+
+/* Links */
+
+a {
+  text-decoration: none;
+}
