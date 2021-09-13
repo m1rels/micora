@@ -5,8 +5,10 @@
   --color-text: #ffffff;
 }
 
-body {
-  background-color: var(--color-primary);
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
 }
 
 /* Typography */
@@ -19,6 +21,7 @@ body {
   font-size: 1.8rem;
   font-family: Roboto, Arial, Helvetica, sans-serif;
   color: var(--color-text);
+  background-color: var(--color-primary);
   line-height: 2.7rem;
 }
 
@@ -81,4 +84,58 @@ h5 {
 
 a {
   text-decoration: none;
+}
+
+/* Buttons */
+
+.btn {
+  border-radius: 40px;
+  font-size: 2.2rem;
+  border: 0;
+  padding: 1rem 3.5rem;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  margin: 1rem 0;
+}
+
+.btn--secondary {
+  background-color: var(--color-secondary);
+  color: #ffffff;
+}
+
+.btn--secondary:hover {
+  background-color: #3a8ffd;
+  transition: background-color 0.3s;
+}
+
+.btn--accent {
+  background-color: var(--color-accent);
+  color: #ffffff;
+}
+
+.btn--accent:hover {
+  background-color: #ef1b5e;
+  transition: background-color 0.3s;
+}
+
+.btn--empty {
+  background-color: #ffffff;
+  color: var(--color-accent);
+}
+
+.btn--empty:hover {
+  color: #ef1b5e;
+  transition: color 0.3s;
+}
+
+.btn--small {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.btn--blocks {
+  width: 100%;
+  display: inline-block;
 }
