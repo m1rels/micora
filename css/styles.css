@@ -183,3 +183,21 @@ a {
 .list__item a {
   color: inherit;
 }
+
+/* Inputs */
+
+.input {
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  outline: 0;
+  font-size: 1.5rem;
+}
+
+.input__blocks {
+  width: 100%;
+}
+
+::placeholder {
+  color: #18171d;
+}
