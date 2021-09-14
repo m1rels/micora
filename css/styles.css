@@ -201,3 +201,37 @@ a {
 ::placeholder {
   color: #18171d;
 }
+
+/* Cards */
+
+.card {
+  border-radius: 7px;
+  padding: 3rem 2.5rem;
+}
+
+.card--white {
+  background-color: #ffffff;
+  color: #18171d;
+}
+
+.card--gradient {
+  background: rgb(238, 39, 121);
+  background: linear-gradient(
+    33deg,
+    rgba(238, 39, 121, 1) 0%,
+    rgba(120, 52, 190, 1) 66%
+  );
+  color: #ffffff;
+}
+
+.card__header {
+  padding-bottom: 1rem;
+}
+
+.card__body {
+  padding-top: 1rem;
+}
+
+.card__body > p {
+  margin: 0;
+}
