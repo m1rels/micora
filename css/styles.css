@@ -72,12 +72,18 @@ h5 {
 
 /* Icons */
 
-.icon {
+.fas,
+.fab {
   font-size: 2.5rem;
 }
 
 .icon--accent {
   color: var(--color-accent);
+}
+
+.icon--link:hover {
+  color: #ef1b5e;
+  transition: color 0.3s;
 }
 
 /* Links */
@@ -138,4 +144,42 @@ a {
 .btn--blocks {
   width: 100%;
   display: inline-block;
+}
+
+/* Lists */
+
+.list {
+  list-style: none;
+}
+
+.list .list__item {
+  margin-bottom: 1rem;
+}
+
+.list--inline .list__item {
+  display: inline;
+  margin-right: 2rem;
+}
+
+.list__icon .list__item {
+  margin-bottom: 2rem;
+  font-weight: 700;
+  font-size: 1.2rem;
+  align-items: center;
+}
+
+.list__icon .fas,
+.list__icon .fab {
+  margin-right: 1.5rem;
+  width: 2rem;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.list__social .list__item {
+  margin-right: 3rem;
+}
+
+.list__item a {
+  color: inherit;
 }
