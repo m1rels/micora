@@ -206,7 +206,7 @@ a {
 
 .card {
   border-radius: 7px;
-  padding: 3rem 2.5rem;
+  padding: 5rem;
 }
 
 .card--white {
@@ -234,4 +234,46 @@ a {
 
 .card__body > p {
   margin: 0;
+}
+
+/* Plans */
+
+.plan .card {
+  height: 31rem;
+  width: 33.5rem;
+}
+
+.plan__name {
+  margin: 0 0 1rem 0;
+}
+
+.plan__price {
+  font-size: 5.5rem;
+  font-weight: 900;
+}
+
+.plan__description {
+  margin: 0;
+}
+
+.plan__dollar {
+  position: relative;
+  top: -25px;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.plan__billing-cycle {
+  position: relative;
+  right: 15px;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.plan .card__header {
+  padding-bottom: 3rem;
+}
+
+.plan .btn {
+  margin: 3rem 0 0;
 }
