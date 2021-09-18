@@ -96,6 +96,7 @@ h5 {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 /* Buttons */
@@ -158,7 +159,6 @@ a {
   list-style: none;
 }
 
-font-size: 2.5rem;
 .list .list__item {
   margin-bottom: 1rem;
 }
@@ -180,8 +180,8 @@ font-size: 2.5rem;
   margin-right: 1.5rem;
   width: 2rem;
   text-align: center;
-  vertical-align
-  font-size: 2.5rem;: middle;
+  vertical-align: middle;
+  font-size: 2.5rem;
 }
 
 .list__social .list__item {
@@ -200,10 +200,15 @@ font-size: 2.5rem;
   border: 1px solid #ccc;
   outline: 0;
   font-size: 1.5rem;
+  margin: 1.5rem 0;
 }
 
 .input__blocks {
   width: 100%;
+}
+
+.input--small {
+  font-size: 1rem;
 }
 
 ::placeholder {
@@ -316,3 +321,48 @@ font-size: 2.5rem;
   margin-left: 1rem;
 }
 
+/* Input Groups */
+
+.input-group {
+  background: #ffffff;
+  max-width: 40rem;
+  padding: 3rem;
+  border-radius: 10px;
+}
+
+.input-group__header {
+  text-align: center;
+  color: var(--color-primary);
+  margin-top: 0;
+}
+
+.input-group__body {
+  text-align: left;
+}
+
+.input-group .input:last-of-type {
+  padding-bottom: 10rem;
+  border-radius: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .input-group {
+    padding: 2rem;
+  }
+
+  .input-group__header {
+    font-size: 1.5rem;
+  }
+
+  .input-group .btn--small {
+    font-size: 1rem;
+  }
+
+  .input-group .btn--small {
+    font-size: 1.2rem;
+  }
+
+  .input-group .input {
+    font-size: 1.2rem;
+  }
+}
