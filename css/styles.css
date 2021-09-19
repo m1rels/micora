@@ -366,3 +366,27 @@ a {
     font-size: 1.2rem;
   }
 }
+
+/* Media objects */
+
+.media {
+  max-width: 250px;
+}
+
+.media__title,
+.media__text {
+  text-align: center;
+}
+
+.media__title {
+  margin-bottom: 0.5rem;
+}
+
+.media__text {
+  margin-top: 0.5rem;
+}
+
+.media__image {
+  width: 100%;
+  padding: 2rem;
+}
