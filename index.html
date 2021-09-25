@@ -19,26 +19,17 @@
     ></script>
   </head>
   <body>
-    <section class="block container">
-      <header class="block__header">
-        <h2 class="block__heading">Heading</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui velit
-          quisquam assumenda sapiente placeat quaerat. Voluptate nisi
-          consectetur in temporibus.
-        </p>
-      </header>
-    </section>
-    <section class="block block--blue">
-      <div class="container">
-        <h2 class="block__heading">Heading</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui velit
-          quisquam assumenda sapiente placeat quaerat. Voluptate nisi
-          consectetur in temporibus.
-        </p>
-      </div>
-    </section>
+    <nav class="nav collapsible">
+      <a href="#"><img class="nav__logo" src="images/cube.png" alt="" /></a>
+      <i class="fas fa-bars nav__toggler"></i>
+      <ul class="list nav__list collapsible__content">
+        <li class="nav__item"><a href="#">Home</a></li>
+        <li class="nav__item"><a href="#">Product</a></li>
+        <li class="nav__item"><a href="#">Pricing</a></li>
+        <li class="nav__item"><a href="#">About</a></li>
+        <li class="nav__item"><a href="#">Contact</a></li>
+      </ul>
+    </nav>
     <script src="js/main.js"></script>
   </body>
 </html>
