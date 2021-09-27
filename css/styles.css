@@ -498,4 +498,14 @@ a {
   .nav__item {
     padding: 0 1.5rem;
   }
-} ;
+}
+
+/* Feature block */
+
+.block__feature .grid {
+  gap: 4rem 4rem;
+}
+
+.block__feature .block__header {
+  margin-bottom: 7rem;
+}
