@@ -365,7 +365,7 @@ a {
 /* Media objects */
 
 .media {
-  max-width: 250px;
+  max-width: 400px;
 }
 
 .media__title,
@@ -384,6 +384,12 @@ a {
 .media__image {
   width: 100%;
   padding: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .media {
+    max-width: 250px;
+  }
 }
 
 /*Collapsibles */
@@ -500,7 +506,7 @@ a {
   }
 }
 
-/* Feature block */
+/* Feature blocks */
 
 .block__feature .grid {
   gap: 4rem 4rem;
@@ -508,4 +514,30 @@ a {
 
 .block__feature .block__header {
   margin-bottom: 7rem;
+}
+
+/* Media blocks */
+
+.block__media .grid {
+  justify-content: center;
+}
+
+.block__media .media {
+  justify-self: center;
+}
+
+.block__media__text {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+
+.block__media .grid {
+  gap: 3rem;
+}
+
+@media screen and (min-width: 768px) {
+  .block__media__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
