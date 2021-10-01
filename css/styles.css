@@ -246,9 +246,8 @@ a {
 
 /* Plans */
 
-.plan .card {
-  height: 31rem;
-  width: 33.5rem;
+.plan {
+  transition: transform 0.2s ease-out;
 }
 
 .plan__name {
@@ -284,6 +283,10 @@ a {
 
 .plan .btn {
   margin: 3rem 0 0;
+}
+
+.plan:hover {
+  transform: scale(1.05);
 }
 
 /* Grids */
@@ -540,4 +543,19 @@ a {
   .block__media__grid {
     grid-template-columns: repeat(3, 1fr);
   }
+}
+
+/* plan blocks */
+
+.block__plan .card {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.block__plan .grid {
+  gap: 4rem;
+}
+
+.block__header__text {
+  margin-bottom: 6rem;
 }
