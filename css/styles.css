@@ -742,3 +742,32 @@ a {
     grid-template-columns: 50% 50%;
   }
 }
+
+/* Intro */
+
+.intro__content {
+  text-align: center;
+}
+
+.intro__image {
+  display: flex;
+}
+
+.intro__image > img {
+  width: 100%;
+}
+
+.intro .grid {
+  gap: 4rem;
+}
+
+.intro__text {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .intro__content {
+    text-align: left;
+  }
+}
