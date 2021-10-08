@@ -19,13 +19,104 @@
     ></script>
   </head>
   <body>
+    <div class="block--gradient">
+    <nav class="nav collapsible">
+      <a href="#"><img class="nav__logo" src="images/cube.png" alt="" /></a>
+      <i class="fas fa-bars nav__toggler"></i>
+      <ul class="list nav__list collapsible__content">
+        <li class="nav__item"><a href="#">Home</a></li>
+        <li class="nav__item"><a href="#">Product</a></li>
+        <li class="nav__item"><a href="#">Pricing</a></li>
+        <li class="nav__item"><a href="#">About</a></li>
+        <li class="nav__item"><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <section class="block hero">
+      <div class="container">
+        <div class="grid grid--1x2">
+          <div class="hero__content">
+            <h1 class="hero__heading">We focus on Software Development</h1>
+            <p class="hero__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente,
+              ea.
+            </p>
+            <button class="btn btn--white">Try for Free</button>
+          </div>
+          <picture class="hero__image">
+            <source
+              type="image/webp"
+              srcset="images/hero.webp 1x, images/hero@2x.webp 2x"
+            />
+            <source
+              type="image/png"
+              srcset="images/hero.png 1x, images/hero@2x.png 2x"
+            />
+            <img src="images/hero.jpg" alt="" />
+          </picture>
+        </div>
+      </div>
+    </div>
+    </section>
+    <section class="block container block__feature">
+      <header class="block__header">
+        <h3>At your fingertips</h3>
+        <h2>Features</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, minima.
+        </p>
+      </header>
+      <div class="grid grid--1x3">
+        <div class="feature">
+          <div class="feature__header">
+            <div class="feature__image">
+              <i class="fas fa-dice-d20 icon--container"></i>
+            </div>
+            <h3 class="feature__title">The best products start with Sketch</h3>
+          </div>
+          <div class="feature__body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi vel
+              incidunt a non. Neque, maiores.
+            </p>
+          </div>
+        </div>
+        <div class="feature">
+          <div class="feature__header">
+            <div class="feature__image">
+              <i class="fas fa-sync icon--container"></i>
+            </div>
+            <h3 class="feature__title">Fastest way to organize</h3>
+          </div>
+          <div class="feature__body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi vel
+              incidunt a non. Neque, maiores.
+            </p>
+          </div>
+        </div>
+        <div class="feature">
+          <div class="feature__header">
+            <div class="feature__image">
+              <i class="fas fa-tools icon--container"></i>
+            </div>
+            <h3 class="feature__title">Work better together</h3>
+          </div>
+          <div class="feature__body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi vel
+              incidunt a non. Neque, maiores.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="block container intro">
       <div class="grid grid--1x2">
         <div class="intro__content">
           <h2>Lightning Fast Prototyping</h2>
           <p class="intro__text">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Recusandae, deleniti.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae,
+            deleniti.
           </p>
           <button class="btn btn--secondary">Try For Free</button>
         </div>
@@ -42,6 +133,250 @@
         </picture>
       </div>
     </section>
+    <section class="block container block__domain">
+      <header class="block__header">
+        <h4>At your fingertips</h4>
+        <h2 class="block__heading">Lightning fast Prototyping</h2>
+      </header>
+      <h4 class="block__domain__heading">Subscribe to our Newsletter</h4>
+      <input type="text" class="input input__blocks" placeholder="Your Email" />
+      <button class="btn btn--accent btn--blocks btn--small">Subscribe</button>
+    </section>
+    <section class="block container block__media">
+      <header class="block__header">
+        <h2 class="block__media__heading">Partners</h2>
+        <p class="block__media__text">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis,
+          porro?
+        </p>
+      </header>
+      <div class="grid block__media__grid">
+        <div class="media">
+          <h3 class="media__title">Web Development</h3>
+          <div class="media__body">
+            <img src="images/web.png" alt="" class="media__image" />
+            <p class="media__text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus
+              provident maiores corporis facere itaque praesentium.
+            </p>
+          </div>
+        </div>
+        <div class="media">
+          <h3 class="media__title">App Development</h3>
+          <div class="media__body">
+            <img src="images/app.png" alt="" class="media__image" />
+            <p class="media__text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus
+              provident maiores corporis facere itaque praesentium.
+            </p>
+          </div>
+        </div>
+        <div class="media">
+          <h3 class="media__title">Multimedia Services</h3>
+          <div class="media__body">
+            <img src="images/multimedia.png" alt="" class="media__image" />
+            <p class="media__text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus
+              provident maiores corporis facere itaque praesentium.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="block container block__plan">
+      <header class="block__header">
+        <h2 class="block__media__heading">Pricing</h2>
+        <p class="block__header__text">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore,
+          laboriosam?
+        </p>
+      </header>
+      <div class="grid grid--1x3">
+        <div class="plan">
+          <div class="card card--white">
+            <header class="card__header">
+              <h3 class="plan__name">Free</h3>
+              <h5 class="plan__description">Lorem ipsum dolor sit amet.</h5>
+            </header>
+            <div class="card__body">
+              <span class="plan__price">0</span>
+              <span class="plan__dollar">$</span>
+              <span class="plan__billing-cycle">per month</span>
+              <button class="btn btn--secondary btn--small btn--blocks">
+                Order Now
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="plan">
+          <div class="card card--white">
+            <header class="card__header">
+              <h3 class="plan__name">STANDARD</h3>
+              <h5 class="plan__description">Lorem ipsum dolor sit amet.</h5>
+            </header>
+            <div class="card__body">
+              <span class="plan__price">10</span>
+              <span class="plan__dollar">$</span>
+              <span class="plan__billing-cycle">per month</span>
+              <button class="btn btn--secondary btn--small btn--blocks">
+                Order Now
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="plan">
+          <div class="card card--gradient">
+            <header class="card__header">
+              <h3 class="plan__name">BUISNESS</h3>
+              <h5 class="plan__description">Lorem ipsum dolor sit amet.</h5>
+            </header>
+            <div class="card__body">
+              <span class="plan__price">99</span>
+              <span class="plan__dollar">$</span>
+              <span class="plan__billing-cycle">per month</span>
+              <button class="btn btn--empty btn--small btn--blocks">
+                Order Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="block block--blue block__showcase">
+      <div class="container">
+        <header class="block__header">
+          <h2 class="block__showcase__heading">Contact Us</h2>
+          <p class="block__showcase__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, quos!
+          </p>
+        </header>
+        <div class="grid grid--1x2">
+          <div class="block__showcase__content">
+            <ul class="list list--inline list__social">
+              <li class="list__item">
+                <a href=""
+                  ><i class="fab fa-twitter icon--accent icon--link"></i
+                ></a>
+              </li>
+              <li class="list__item">
+                <a href=""
+                  ><i class="fab fa-instagram icon--accent icon--link"></i
+                ></a>
+              </li>
+              <li class="list__item">
+                <a href=""
+                  ><i
+                    class="fab fa-facebook-square icon icon--accent icon--link"
+                  ></i
+                ></a>
+              </li>
+              <li class="list__item">
+                <a href=""
+                  ><i class="fab fa-linkedin icon icon--accent icon--link"></i
+                ></a>
+              </li>
+            </ul>
+            <ul class="list list__icon">
+              <li class="list__item">
+                <i class="fas fa-map-marker-alt icon icon--accent"></i>6386 Spring
+                St undefined Anchorage, Georgia 12473 United States
+              </li>
+              <li class="list__item">
+                <i class="fas fa-mobile-alt icon icon--accent"></i>(843) 555-0130
+              </li>
+              <li class="list__item">
+                <i class="fas fa-envelope icon icon--accent"></i
+                >willie.jennings@example.com
+              </li>
+            </ul>
+          </div>
+          <div class="input-group">
+            <h4 class="input-group__header">Contact Us</h4>
+            <div class="input-group__body">
+              <input
+                type="text"
+                class="input input__blocks"
+                placeholder="Your Name"
+              />
+              <input
+                type="text"
+                class="input input__blocks"
+                placeholder="Your Email"
+              />
+              <input
+                type="text"
+                class="input input__blocks"
+                placeholder="Your Message"
+              />
+              <button class="btn btn--small btn--accent">
+                <a href="#">Send</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="block container footer">
+      <div class="grid grid--1x3">
+        <div class="collapsible">
+          <header class="collapsible__header">
+            <h3 class="collapsible__heading footer__heading">Pages</h3>
+            <i
+              class="fas fa-chevron-circle-right icon--white collapsible__chevron"
+            ></i>
+          </header>
+          <div class="collapsible__content footer__list">
+            <ul class="list">
+              <li class="list__item">Eleanor Edwards</li>
+              <li class="list__item">Ted Robertson</li>
+              <li class="list__item">Annette Russel</li>
+              <li class="list__item">Jennie Mckinney</li>
+              <li class="list__item">Gloria Richards</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__brand">
+          <img src="images/cube.png" alt="" />
+        </div>
+        <div class="footer__lists">
+          <ul class="list list__icon">
+            <li class="list__item">
+              <i class="fas fa-map-marker-alt icon icon--accent"></i>6386 Spring St
+              undefined Anchorage, Georgia 12473 Uznited States
+            </li>
+            <li class="list__item">
+              <i class="fas fa-mobile-alt icon icon--accent"></i>(843) 555-0130
+            </li>
+            <li class="list__item">
+              <i class="fas fa-envelope icon icon--accent"></i
+              >willie.jennings@example.com
+            </li>
+          </ul>
+          <ul class="list list--inline list__social">
+            <li class="list__item">
+              <a href=""><i class="fab fa-twitter icon--accent icon--link"></i></a>
+            </li>
+            <li class="list__item">
+              <a href=""
+                ><i class="fab fa-instagram icon--accent icon--link"></i
+              ></a>
+            </li>
+            <li class="list__item">
+              <a href=""
+                ><i class="fab fa-facebook-square icon icon--accent icon--link"></i
+              ></a>
+            </li>
+            <li class="list__item">
+              <a href=""
+                ><i class="fab fa-linkedin icon icon--accent icon--link"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    
+
     <script src="js/main.js"></script>
   </body>
 </html>
