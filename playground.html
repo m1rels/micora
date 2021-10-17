@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/d0928d8c7d.js"
+      crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+    <div class="block--gradient">
+        <nav class="nav collapsible">
+          <a href="#"><img class="nav__logo" src="images/cube.png" alt="" /></a>
+          <i class="fas fa-bars nav__toggler"></i>
+          <ul class="list nav__list collapsible__content">
+            <li class="nav__item"><a href="#">Home</a></li>
+            <li class="nav__item"><a href="#">Product</a></li>
+            <li class="nav__item"><a href="#">Pricing</a></li>
+            <li class="nav__item"><a href="#">About</a></li>
+            <li class="nav__item"><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <section class="block hero">
+          <div class="container">
+            <div class="grid grid--1x2">
+              <div class="hero__content">
+                <h1 class="hero__heading">We focus on Software Development</h1>
+                <p class="hero__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente,
+                  ea.
+                </p>
+                <button class="btn btn--white">Try for Free</button>
+              </div>
+              <picture class="hero__image">
+                <source
+                  type="image/webp"
+                  srcset="images/hero.webp 1x, images/hero@2x.webp 2x"
+                />
+                <source
+                  type="image/png"
+                  srcset="images/hero.png 1x, images/hero@2x.png 2x"
+                />
+                <img src="images/hero.jpg" alt="" />
+              </picture>
+            </div>
+          </div>
+        </div>
+        </section>
+</body>
+</html>
